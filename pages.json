@@ -1,0 +1,266 @@
+{
+	// 路由跳转及 导航栏 tab键
+	"pages": [
+		// tabar一共四个
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "主页",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+
+		{
+			"path": "pages/success/success",
+			"style": {
+				"navigationBarTitleText": "发布",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		},
+		{
+			"path": "pages/shopping/shopping",
+			"style": {
+				"navigationBarTitleText": "商城",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+
+		},
+		{
+			"path": "pages/personal/personal",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		},
+		// banner_arr 5个
+		{
+			"path": "pages/banner_arr/blacklist/blacklist",
+			"style": {
+				"navigationBarTitleText": "黑名单",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/banner_arr/AnimalAdopt/AnimalAdopt",
+			"style": {
+				"navigationBarTitleText": "领养",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/banner_arr/Found/Found",
+			"style": {
+				"navigationBarTitleText": "寻宠",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/banner_arr/Topic/Topic",
+			"style": {
+				"navigationBarTitleText": "话题",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#f98912",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/banner_arr/AnimalShower/AnimalShower",
+			"style": {
+				"navigationBarTitleText": "洗澡",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#f98912",
+				"navigationBarTextStyle": "white"
+
+			}
+
+		},
+		{
+			"path": "pages/home/Animal_item",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/shopping/items",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/banner_arr/blacklist/report",
+			"style": {
+				"navigationBarTitleText": "举报",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/banner_arr/blacklist/find",
+			"style": {
+				"navigationBarTitleText": "查询",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/personal/person",
+			"style": {
+				"navigationBarTitleText": "个人资料",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/personal/profile",
+			"style": {
+				"navigationBarTitleText": "我的地址",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#f98912",
+				"navigationBarTextStyle": "white"
+
+			}
+
+		}, {
+			"path": "pages/personal/found",
+			"style": {
+				"navigationBarTitleText": "新建地址",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/personal/bianji",
+			"style": {
+				"navigationBarTitleText": "编辑地址",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/personal/lingyang/lingyang",
+			"style": {
+				"navigationBarTitleText": "领养协议",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#f98912",
+				"navigationBarTextStyle": "white"
+
+			}
+
+		}, {
+			"path": "pages/personal/gzhu",
+			"style": {
+				"navigationBarTitleText": "我的关注",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#f98912",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/personal/mefab",
+			"style": {
+				"navigationBarTitleText": "我的发布",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#f98912",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/shopping/order",
+			"style": {
+				"navigationBarTitleText": "订单",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+
+		}, {
+			"path": "pages/shopping/neworder",
+			"style": {
+				"navigationBarTitleText": "多个商品",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		}, {
+			"path": "pages/personal/quanbu",
+			"style": {
+				"navigationBarTitleText": "全部订单",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		}, {
+			"path": "pages/personal/paid",
+			"style": {
+				"navigationBarTitleText": "已付款",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/personal/daifuk",
+			"style": {
+				"navigationBarTitleText": "代付款",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#000000",
+		"selectedColor": "#f99214",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"text": "首页",
+				"iconPath": "static/image/首页.png",
+				"selectedIconPath": "static/image/首页(1).png"
+			},
+			{
+				"pagePath": "pages/success/success",
+				"text": "发布",
+				"iconPath": "static/image/icon_发布.png",
+				"selectedIconPath": "static/image/icon_发布(1).png"
+			},
+			{
+				"pagePath": "pages/shopping/shopping",
+				"text": "商城",
+				"iconPath": "static/image/商城.png",
+				"selectedIconPath": "static/image/商城(1).png"
+			},
+			{
+				"pagePath": "pages/personal/personal",
+				"text": "我的",
+				"iconPath": "static/image/我的.png",
+				"selectedIconPath": "static/image/我的(1).png"
+			}
+
+		]
+	}
+
+}
