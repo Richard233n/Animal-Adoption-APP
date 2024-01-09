@@ -1,9 +1,0 @@
-{
-  "navigationBarTitleText": "发布布",
-  "enablePullDownRefresh": false,
-  "usingComponents": {
-    "uni-data-checkbox": "/uni_modules/uni-data-checkbox/components/uni-data-checkbox/uni-data-checkbox",
-    "forpet": "/components/forpet",
-    "donate": "/components/donate"
-  }
-}

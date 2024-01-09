@@ -1,1 +1,0 @@
-<view><view class="choose">选择门店</view><view class="orange iconfont"><view class="orange__icon"></view><input class="search" type="text" placeholder="搜索你想要的" placeholder-style="font-size:14px"/></view></view>
