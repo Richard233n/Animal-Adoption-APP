@@ -219,7 +219,6 @@
 
 
 
-	</view>
 </template>
 
 <script>

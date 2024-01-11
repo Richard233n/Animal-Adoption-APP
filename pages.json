@@ -1,4 +1,10 @@
 {
+	"easycom": {
+		"autoscan": true
+		// "custom": {
+		//   "^uni-(.*)": "@/components/uni-$1.vue", // 匹配components目录内的vue文件
+		// }
+	  },
 	// 路由跳转及 导航栏 tab键
 	"pages": [
 		// tabar一共四个
